@@ -17,6 +17,26 @@
 </body>
 
 </html>
+
+
+<?php
+
+  echo 'We Love PHP';
+  echo '<br>';
+
+  ECHO 'We Love PHP';
+  ECHO '<br>';
+
+  print 'We Love PHP';
+  print '<br>';
+
+  PRINT 'We Love PHP';
+  PRINT '<br>';
+
+?>
+
+<?='We Love PHP With Short Tag';?>
+
 <?php print date("Y"); ?>
 <? print date("M"); ?>
-<? print date("D");
+<? print date("D"); 

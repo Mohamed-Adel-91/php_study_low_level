@@ -11,7 +11,7 @@
   <h1>Hello World</h1>
   <?php echo "This is a PHP script!"; ?>
   <? echo "Additional text."; ?>
-  <p>The time on the server is <?php print date("H:i:s"); ?></p>
+  <p>The time on the server is <?php print date("H:i:s");?></p>
 
   <!-- This is a comment -->
 </body>
@@ -21,22 +21,22 @@
 
 <?php
 
-  echo 'We Love PHP';
-  echo '<br>';
+echo 'We Love PHP';
+echo '<br>';
 
-  ECHO 'We Love PHP';
-  ECHO '<br>';
+echo 'We Love PHP';
+echo '<br>';
 
-  print 'We Love PHP';
-  print '<br>';
+print 'We Love PHP';
+print '<br>';
 
-  PRINT 'We Love PHP';
-  PRINT '<br>';
+print 'We Love PHP';
+print '<br>';
 
 ?>
 
 <?='We Love PHP With Short Tag';?>
 
-<?php print date("Y"); ?>
+<?php print date("Y");?>
 <? print date("M"); ?>
-<? print date("D"); 
+<? print date("D");

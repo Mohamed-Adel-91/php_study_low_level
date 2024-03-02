@@ -1,33 +1,33 @@
 <?php
 
-  /*
-  ============================================
-  = Data Types
-  = ----------
-  = String And Escaping
-  = -------------------
-  = nl2br()
-  ============================================
-  */
+/*
+============================================
+= Data Types
+= ----------
+= String And Escaping
+= -------------------
+= nl2br()
+============================================
+ */
 
-  echo 'Hello PHP';
-  echo '<br>';
-  echo "Hello PHP";
-  echo '<br>';
-  echo "Hello 'PHP'";
-  echo '<br>';
-  echo 'Hello "PHP"';
-  echo '<br>';
-  echo 'Hello \'PHP\'';
-  echo '<br>';
-  echo "Hello \"PHP\"";
-  echo '<br>';
-  echo "Hello PHP\\";
-  echo '<br>';
-  echo 'Hello PHP
+echo 'Hello PHP';
+echo '<br>';
+echo "Hello PHP";
+echo '<br>';
+echo "Hello 'PHP'";
+echo '<br>';
+echo 'Hello "PHP"';
+echo '<br>';
+echo 'Hello \'PHP\'';
+echo '<br>';
+echo "Hello \"PHP\"";
+echo '<br>';
+echo "Hello PHP\\";
+echo '<br>';
+echo 'Hello PHP
   On Multiple
   Lines';
-  echo '<br>';
-  echo nl2br('Hello PHP
+echo '<br>';
+echo nl2br('Hello PHP
   On Multiple
   Lines');

@@ -117,10 +117,72 @@ function check_status($arg1, $arg2, $arg3)
 }
 
 // Needed Output
-echo check_status("Osama", 38, true) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+echo check_status("Mohamed", 33, true) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 echo "<br>";
-echo check_status(38, "Osama", true) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+echo check_status(33, "Mohamed", true) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 echo "<br>";
-echo check_status(true, 38, "Osama") . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+echo check_status(true, 33, "Mohamed") . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 echo "<br>";
-echo check_status(false, "Osama", 38) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
+echo check_status(false, "Mohamed", 33) . PHP_EOL; // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
+
+echo "<hr>";
+// Write Function Content Here
+function calculate($a, $b, $op = "a")
+{
+    $result = null;
+    if ($op == "add" || $op == "a"):
+        $result = $a + $b;
+    elseif ($op == "subtract" || $op == "s"):
+        $result = $a - $b;
+    elseif ($op == "multiply" || $op == "m"):
+        $result = $a * $b;
+    else:
+        echo "Error! Invalid Operator.";
+    endif;
+    return $result;
+
+}
+
+// Needed Output
+echo calculate(10, 20); // 30
+echo "<br>";
+echo calculate(10, 20, "a"); // 30
+echo "<br>";
+echo calculate(10, 20, "s"); // -10
+echo "<br>";
+echo calculate(10, 20, "subtract"); // -10
+echo "<br>";
+echo calculate(10, 20, "multiply"); // 200
+echo "<br>";
+echo calculate(10, 20, "m"); // 200
+
+echo "<hr>";
+function calc(int $num_one, int $num_two): float
+{
+    return $num_one + $num_two;
+}
+
+echo calc(20, 10); // 30
+echo "<br>";
+echo gettype(calc(20, 10)); // Double
+
+echo "<hr>";
+
+$message = "Hello";
+
+// Write Your Code Here
+
+function Hello($name)
+{
+    global $message;
+    return $message . " " . $name;
+};
+
+echo $message("Mohamed"); // Hello Mohamed
+
+echo "<hr>";
+// Write Function Content Here
+$greet = fn($name) => "Hi " . $name;
+
+// Needed Output
+echo $greet("Mohamed"); // Greetings

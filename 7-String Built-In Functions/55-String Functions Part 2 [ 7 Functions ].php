@@ -2,13 +2,23 @@
 
   /*
     String Functions
-    - implode(Separator[Optional], Array[Required]) => join() Is Alias
-    - explode(Separator[Required], String[Required], Limit[Optional])
-    - str_shuffle(String[Required])
-    - strrev(String[Required])
-    - trim(String[Required], CharsList[Optional])
-    - ltrim(String[Required], CharsList[Optional])
-    - rtrim(String[Required], CharsList[Optional])
+    - implode(Separator[Optional], Array[Required]) => join() Is Alias  
+    >>> to  be used when you want to add a separator between: 
+      elements of an array.
+    - explode(Separator[Required], String[Required], Limit[Optional]) 
+    >>> to  be used when you want to split a string into  an array based on: 
+      a specific character (separator).
+    - str_shuffle(String[Required]) 
+    >>> to  shuffle the characters in a string.
+    - strrev(String[Required]) 
+    >>> to  reverse a string.
+    - trim(String[Required], CharsList[Optional]) 
+    >>> to remove any leading and trailing white space,
+    or specified characters from the beginning and end of a string.
+    - ltrim(String[Required], CharsList[Optional])  
+    >>> is similar to trim but only removes leading spaces.
+    - rtrim(String[Required], CharsList[Optional])  
+    >>> is similar to trim but only removes trailing spaces.
     --- Space ""
     --- Tab \t
     --- New Line \n

@@ -4,7 +4,7 @@
   File System Functions
 
   - glob(Pattern[Required], Flags[Optional])
-  --- Find Pathnames Matching A Pattern And Return Array
+  --- Find Pathname Matching A Pattern And Return Array
 
   - rename(Old[Required], New[Required]) => Move
   --- Renames A File Or Directory

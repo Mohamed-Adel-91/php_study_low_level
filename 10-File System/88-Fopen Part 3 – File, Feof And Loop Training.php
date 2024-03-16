@@ -10,7 +10,7 @@
   ------ No Problem If Its Exists
   ------ No Truncation
   ------ Pointer At The Beginning
-  --- [c+] For Read &#038; Write
+  --- [c+] For Read & Write
 
   - file(File[Required], Flag[Optional], Context[Optional])
   --- Read Entire File Into Array

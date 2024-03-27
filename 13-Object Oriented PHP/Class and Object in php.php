@@ -1,38 +1,38 @@
 <?php
-/*
+/**
  * Class & object
  * ------------------------------
- * - Class is a blueprint for creating objects.
- * - Object is an instance of a class.
- * - A class defines the properties and methods of an object.
- * - An object is a collection of properties and methods.
- * - Class has  a property called $this which refers to itself.
- * 
+  - Class is a blueprint for creating objects.
+  - Object is an instance of a class.
+  - A class defines the properties and methods of an object.
+  - An object is a collection of properties and methods.
+  - Class has  a property called $this which refers to itself.
+  
  * - Variable Inside Class = [property]
  * - Variable Outside Class = [variable]
  * - Function Inside Class = [method]
  * - Function Outside Class = [function]
- * 
- * - [ class ]  = Class keyword
- * - [ new ] = New keyword creates a new object from a class
- * - [ public , private , protected ] are access modifiers = Visibility Markers
- * - [ -> ] =  Object Arrow operator used to access properties or call methods in an object
- * - [ $this -> ] = Used inside a method to refer to the current object properties
- * - [ self ] =  Used inside a static method to refer to the class name & constant not the current object
- * - [ :: ]  = Scope Resolution Operator, Static Operator, used to access static properties/methods
- * -> maybe we have an error like this [ paamayim Nekudotayim ] it's hebrew word = [ Double Colon ]
- * - Methods are defined inside curly braces {}
- * 
+  
+  - [ class ]  = Class keyword
+  - [ new ] = New keyword creates a new object from a class
+  - [ public , private , protected ] are access modifiers = Visibility Markers
+  - [ -> ] =  Object Arrow operator used to access properties or call methods in an object
+  - [ $this -> ] = Used inside a method to refer to the current object properties
+  - [ self ] =  Used inside a static method to refer to the class name & constant not the current object
+  - [ :: ]  = Scope Resolution Operator, Static Operator, used to access static properties/methods
+  -> maybe we have an error like this [ paamayim Nekudotayim ] it's hebrew word = [ Double Colon ]
+  - Methods are defined inside curly braces {}
+  
  * -- self vs this --
  * self :- 
- * - Refer to Current Class
- * - Access static members  (Properties / Methods)
- * - Can be accessed without creating an object
- * - we don't use [ $ ] 
+  - Refer to Current Class
+  - Access static members  (Properties / Methods)
+  - Can be accessed without creating an object
+  - we don't use [ $ ] 
  * this :-
- * - Refer to Current Object
- * - Access non static members   (Properties / Methods)
- * - Must use [ $ ] to access them
+  - Refer to Current Object
+  - Access non static members   (Properties / Methods)
+  - Must use [ $ ] to access them
  */
 
 // Class definition and object creation

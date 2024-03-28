@@ -1,10 +1,8 @@
 <?php
 /**
  * Inheritance  is a fundamental concept in object-oriented programming
-
 -- first class called -> super class
 -- Inheritance class called ->  sub class or derived class or subclass
-
  */
 
 class Apple_phone

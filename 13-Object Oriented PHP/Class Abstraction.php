@@ -9,6 +9,9 @@
 - Can make methods & properties. 
 - Can have Abstract Method and non Abstract Methods.
 - Abstract Methods Contains no body code but it can have argument.
+- Non Abstract Methods Have Body Code with implementation.
+- Abstract is used to force derived (child) classes to provide their own implementations of abstract method(s).
+- we must provide the same level of methods [ public , protected , private ] 
  */
 
   abstract class MakeDevice 

@@ -1,8 +1,9 @@
 <?php
 
-/*
-Encapsulation is a fundamental concept in object-oriented programming.
-It refers to the practice of hiding the internal state and implementation details of an object from the outside world
+/**
+ * Encapsulation is a fundamental concept in object-oriented programming.
+It refers to the practice of hiding the internal state and implementation
+details of an object from the outside world
  */
 
 class Apple
